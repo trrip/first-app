@@ -7,6 +7,7 @@ version: 2
 jobs:
   prepare:
     <<: *defaults
+    CC_TEST_REPORTER_ID: 77eb89fdb97abcbeb91b8d5818d1b6804d9786ce23fd2e88bfcfb4e8cbc1121a
     steps:
       - checkout
       # Download and cache dependencies
